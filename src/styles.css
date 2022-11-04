@@ -25,6 +25,9 @@ main h2 {
   opacity: 0.3;
   text-transform: uppercase;
 }
+.instagram-photos h2 {
+  margin: 15px 0;
+}
 main p {
   font-style: normal;
   font-weight: 400;
@@ -125,7 +128,7 @@ section.sicilian-cities {
 .grid-pescheria {
   grid-template-columns: repeat(2, 1fr);
 }
-.grid-cities {
+.grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-2-col {
