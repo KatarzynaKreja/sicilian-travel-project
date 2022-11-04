@@ -25,6 +25,14 @@ main h2 {
   opacity: 0.3;
   text-transform: uppercase;
 }
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1d1536;
+  opacity: 0.7;
+}
 
 header h1 {
   font-weight: 700;
@@ -155,6 +163,21 @@ section.sicilian-cities {
   padding: 16px;
   background-color: #696969;
   text-decoration: none;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
 }
 
 section {
