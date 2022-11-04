@@ -128,12 +128,20 @@ section.sicilian-cities {
 .grid-cities {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
 
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 .text-center {
   text-align: center;
@@ -145,6 +153,9 @@ section.sicilian-cities {
 
 .card-body {
   padding: 30px;
+}
+.card-footer a {
+  margin: 0 0 15px;
 }
 
 .card-footer {
